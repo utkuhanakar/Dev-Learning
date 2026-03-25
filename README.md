@@ -22,7 +22,15 @@ It is not limited to a single field. Instead, it reflects a broad and evolving j
 ```
 dev-learning/
 │
-├── web/
+web/
+├── html/
+│   ├── basics/
+│   ├── forms/
+│   └── semantic/
+│
+└── css/
+    ├── basics/
+    └── flexbox/
 ├── programming/
 ├── ai/
 ├── game-dev/
