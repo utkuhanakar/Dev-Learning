@@ -20,22 +20,40 @@ It is not limited to a single field. Instead, it reflects a broad and evolving j
 ## 📁 Structure
 
 ```
-dev-learning/
-│
-web/
-├── html/
-│   ├── basics/
-│   ├── forms/
-│   └── semantic/
-│
-└── css/
-    ├── basics/
-    └── flexbox/
+## Structure
+
+Dev-Learning/
+
+├── Log/
+│   ├── Daily-Log.md
+│   └── week-1.md
+
+├── notes/
+│   ├── UI-Lessons.md
+│   ├── mistakes.md
+│   ├── css-basic.md
+│   ├── css-flexbox.md
+│   ├── css-layout.md
+│   ├── html-basics.md
+│   ├── html-forms.md
+│   └── html-semantic.md
+
+├── web/
+│   ├── portfolio-dev.md
+│   └── portfolio-mistakes.md
+
 ├── programming/
-├── ai/
-├── game-dev/
+│   └── Programming-Learning.md
+
 ├── systems/
-└── notes/
+│   └── Systems-Thinking.md
+
+├── ai/
+│   └── AI-Usage.md
+
+├── LICENSE
+└── README.md
+
 ```
 
 ---
