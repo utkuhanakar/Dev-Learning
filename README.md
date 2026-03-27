@@ -85,11 +85,33 @@ I actively use AI tools (ChatGPT, Claude, Gemini) as assistants.
 * I verify, break, and rebuild
 * I treat AI as a tool, not a shortcut
 
+---------------------------------------
+
 ## Current Status
 
-* Building my portfolio
-* Learning JavaScript fundamentals
-* Improving UI/UX thinking
+## Recent Experience
+
+On March 27, I overcomplicated my portfolio project.
+
+I tried to add too many features at once:
+
+* entry systems
+* animations
+* overlays
+
+This caused:
+
+* broken UI
+* non-working buttons
+* messy structure
+
+### What I learned
+
+* Keep things simple
+* Build step by step
+* Stability > features
+  
+-------------------------------------
 
 ## Structure
 
