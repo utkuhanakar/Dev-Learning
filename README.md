@@ -57,6 +57,58 @@ web/
 * Continuously refine and restructure
 
 ---
+# Dev Learning Hub
+
+This repository documents my journey in software development.
+
+I am learning by building, experimenting, and documenting — not just consuming.
+
+## Focus Areas
+
+* Web Development (HTML, CSS, JavaScript)
+* Systems & Low-level thinking
+* Problem solving
+* AI-assisted development
+
+## Philosophy
+
+* Learn by doing
+* Keep things simple
+* Build real things
+* Document honestly
+
+## AI Usage
+
+I actively use AI tools (ChatGPT, Claude, Gemini) as assistants.
+
+* I do NOT blindly copy
+* I verify, break, and rebuild
+* I treat AI as a tool, not a shortcut
+
+## Current Status
+
+* Building my portfolio
+* Learning JavaScript fundamentals
+* Improving UI/UX thinking
+
+## Structure
+
+Each folder represents a learning domain.
+
+Inside:
+
+* notes → what I learned
+* experiments → small tests
+* projects → real builds
+
+## Logs
+
+Daily progress is tracked in /logs.
+
+---
+
+This is not a perfect repo.
+This is a real learning process.
 
 ## 🚀 Vision
 
