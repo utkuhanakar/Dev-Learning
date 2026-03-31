@@ -73,20 +73,7 @@ Dev-Learning/
 * Focus on understanding core concepts
 * Keep notes concise and practical
 * Continuously refine and restructure
-
 ---
-# Dev Learning Hub
-
-This repository documents my journey in software development.
-
-I am learning by building, experimenting, and documenting — not just consuming.
-
-## Focus Areas
-
-* Web Development (HTML, CSS, JavaScript)
-* Systems & Low-level thinking
-* Problem solving
-* AI-assisted development
 
 ## Philosophy
 
@@ -94,6 +81,7 @@ I am learning by building, experimenting, and documenting — not just consuming
 * Keep things simple
 * Build real things
 * Document honestly
+---
 
 ## AI Usage
 
