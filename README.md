@@ -26,7 +26,6 @@ Dev-Learning/
 
 ├── Log/
 │   ├── Daily-Log.md
-│   └── week-1.md
 
 ├── notes/
 │   ├── UI-Lessons.md
