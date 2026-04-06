@@ -20,44 +20,43 @@ It is not limited to a single field. Instead, it reflects a broad and evolving j
 ## 📁 Structure
 
 ```
-## Structure
-
 Dev-Learning/
-
 ├── Log/
-│   ├── Daily-Log.md
-
-├── notes/
-│   ├── UI-Lessons.md
-│   ├── mistakes.md
-│   ├── css-basic.md
-│   ├── css-flexbox.md
-│   ├── css-layout.md
-│   ├── html-basics.md
-│   ├── html-forms.md
-│   └── html-semantic.md
-
-├── web/
-│   ├── portfolio-dev.md
-│   └── portfolio-mistakes.md
-
-├── programming/
-│   ├── Programming-Learning.md
-│   ├── midterm_prep.py
-│   └── midterm_tracker.md
-
-├── systems/
-│   └── Systems-Thinking.md
-
+│   └── Daily-Log.md
 ├── ai/
 │   └── AI-Usage.md
-
 ├── docs/
 │   └── SECURITY_CHECKLIST.md
-
+├── notes/
+│   ├── mistakes.md
+│   └── UI-Lessons.md
+├── programming/
+│   ├── midterm_prep.py
+│   ├── midterm_tracker.md
+│   ├── Programming-Learning.md
+│   └── Python-Learning.py
+├── systems/
+│   └── Systems-Thinking.md
+├── web/
+│   ├── portfolio-dev.md
+│   ├── portfolio-mistakes.md
+│   ├── css/
+│   │   ├── css-basic.md
+│   │   ├── css-layout.md
+│   │   └── flexbox/
+│   │       ├── css-flex box.md
+│   │       └── flexbox.md
+│   └── html/
+│       ├── basics/
+│       │   ├── html-basics.md
+│       │   ├── index.html
+│       │   └── style.css
+│       ├── forms/
+│       │   └── html-forms.md
+│       └── semantic/
+│           └── html-semantic.md
 ├── LICENSE
 └── README.md
-
 ```
 
 ---
