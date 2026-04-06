@@ -42,13 +42,18 @@ Dev-Learning/
 │   └── portfolio-mistakes.md
 
 ├── programming/
-│   └── Programming-Learning.md
+│   ├── Programming-Learning.md
+│   ├── midterm_prep.py
+│   └── midterm_tracker.md
 
 ├── systems/
 │   └── Systems-Thinking.md
 
 ├── ai/
 │   └── AI-Usage.md
+
+├── docs/
+│   └── SECURITY_CHECKLIST.md
 
 ├── LICENSE
 └── README.md
