@@ -1,0 +1,34 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Secrets & Environment
+.env
+.env.local
+.env.*
+secrets.json
+*.key
+*.pem
+credentials.json
+api_keys.py
+config_private.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+
+# Web
+node_modules/
+.next/
+out/
+build/
+dist/
+.env
+
+# Learning specific
+*.tmp
+*.log
