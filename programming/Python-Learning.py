@@ -76,3 +76,8 @@ print("Is the game over?", is_game_over)
 # Whenever you are ready to learn more, just tell me: 
 # "I am ready for Module 2!"
 # ============================================================================
+player_name = "Utku"
+player_age = 19
+print("Player Name:", player_name)
+print("Player Age:", player_age)
+
