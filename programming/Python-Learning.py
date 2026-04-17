@@ -79,7 +79,7 @@ print("Is the game over?", is_game_over)
 # ============================================================================
 # 🌟 STUDENT'S WORK (UTKU) - PERFECTLY DONE! 🌟
 # ============================================================================
-# Notes from the Professor:
+# Notes from the Professor (AI Agent):
 # Excellent job! You correctly defined the variables and successfully 
 # displayed them using the print() function. 
 # You are officially writing Python code! Keep this here as a memory.
@@ -182,4 +182,114 @@ print(f"In 5 years, {player_name} will be {player_age + 5} years old.")
 #    if it's perfectly divisible by 2. (Hint: if remainder is 0, it's even!)
 #
 # When you complete and run your homework, let me know!
+# ============================================================================
+price = 150
+discount = 20
+final_price = price - discount
+print(f"The item costs {final_price} dollars.")
+
+is_even = final_price % 2 == 0
+if is_even == True:
+    print("The final price is even.")
+else:
+    print("The final price is odd.")
+
+
+# ============================================================================
+# 🐍 PYTHON MASTERCLASS: MODULE 3 - CONTROL FLOW & DECISIONS
+# ============================================================================
+# 🎯 Module 3 Goals:
+#   1. Making decisions with if, elif, and else.
+#   2. Understanding Conditional Operators (>, <, ==, !=).
+#   3. Using Logical Operators (and, or, not).
+#
+# 🧠 UNIVERSITY LEVEL INSIGHT:
+# In programming, "Control Flow" is how your program decides which lines of code
+# to execute. Think of it like a train traveling on tracks. "If" statements are 
+# the track switches. When a condition is True, the train takes one path; if False,
+# it takes another. This is the foundation of ALL Artificial Intelligence (AI)!
+# ============================================================================
+
+print("\n--- SECTION 1: IF, ELIF, AND ELSE ---")
+# Python uses indentation (spaces at the start of a line) to know which code 
+# belongs inside the 'if' block. Other languages use { }, but Python forces 
+# you to write clean, readable code vertically.
+
+player_hp = 45
+
+if player_hp > 80:
+    print("Player is incredibly healthy!")
+elif player_hp > 30:
+    # 'elif' stands for "else if". It only runs if the first 'if' was False.
+    print("Player is wounded, but okay.")
+else:
+    # 'else' catches everything else if all previous conditions were False.
+    print("WARNING: Player is near death! Use a potion!")
+
+
+print("\n--- SECTION 2: COMPARISON OPERATORS ---")
+# We compare values to create Booleans (True / False).
+boss_level = 10
+player_level = 10
+
+# Equality is `==` (Two equals signs!). 
+# Remember: Single `=` assigns a value. Double `==` asks a question: "Are they equal?"
+is_same_level = (boss_level == player_level)
+print(f"Is player same level as boss? {is_same_level}")
+
+# Inequality is `!=` (Not Equal)
+print(f"Is boss stronger than player? {boss_level > player_level}")
+
+
+print("\n--- SECTION 3: LOGICAL OPERATORS (AND, OR, NOT) ---")
+# Advanced game mechanics and AI require multiple conditions at once!
+
+has_key = True
+door_is_unlocked = False
+
+# 'or' requires ONLY ONE condition to be True.
+can_enter_room = has_key or door_is_unlocked
+print(f"Can the player enter the room? {can_enter_room}")
+
+# 'and' requires BOTH conditions to be True.
+mana_points = 50
+spell_cost = 30
+has_learned_spell = True
+
+can_cast_spell = (mana_points >= spell_cost) and has_learned_spell
+print(f"Can cast Fireball? {can_cast_spell}")
+
+# 'not' flips a Boolean (True becomes False, False becomes True)
+is_poisoned = False
+print(f"Is player safe from poison? {not is_poisoned}")
+
+
+print("\n--- SECTION 4: TRUTHY AND FALSY (ADVANCED PROFESSIONAL TRICK) ---")
+# In Python, almost EVERYTHING can be treated as True or False!
+# Zero (0), empty strings (""), and empty lists ([]) are considered "Falsy".
+# Everything else is "Truthy".
+# Professionals use this to check if a string is empty or if a score is zero!
+
+inventory = "" # Empty string (Falsy)
+
+if inventory:
+    print("You have items in your inventory.")
+else:
+    print("Your inventory is completely empty! (This string was Falsy)")
+
+
+# ============================================================================
+# 🛑 END OF MODULE 3 
+# ============================================================================
+# HOMEWORK / PRACTICE:
+# 1. Create a variable `temperature` and set it to a number (e.g., 25).
+# 2. Write an `if / elif / else` block:
+#    - If temp is greater than 30, print "It's scorching hot!"
+#    - If it's between 20 and 30 (inclusive), print "The weather is perfect."
+#    - Else, print "It's getting cold."
+#    (Hint for the middle one: `elif temperature >= 20 and temperature <= 30:`)
+# 3. Create an empty string `player_input = ""` and use an `if / else` statement
+#    to print "User typed something" or "User pressed Enter without typing".
+#
+# Test your code (python Python-Learning.py) and tell me when you're ready!
 # ============================================================================
