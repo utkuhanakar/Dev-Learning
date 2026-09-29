@@ -150,3 +150,5 @@ To become a versatile software developer capable of working across different dom
 ## 📌 Note
 
 This repository evolves over time as I learn, experiment, and improve.
+
+It is currently undergoing maintenance.
